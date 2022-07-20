@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lobster&family=Mingzat&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.full-body{
+    width: 1221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header-section{
+    margin-top: 50px;
+    display: flex;
+    background-color: #161616;
+    border-radius: 30px;
+}
+.header-box{
+    margin: 5% 0 0 5%;
+    width: 100%;
+}
+.header-box h1 ,p{
+    color: #ffffffff;
+    padding: 0;
+    margin-top: 2%;
+}
+.header-box img{
+    width: 100%;
+}
+.header-box h1{
+    font-size: 70px;
+}
+.header-section button{
+    margin-top: 5%;
+    padding: 16px 25px;
+    background-color: hwb(17 0% 2%);
+    color: #ffffffff;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+button i {
+ margin-left: 5px;
+}
+
+
+/*------------------------------------------
+                    blog section
+-------------------------------------------*/
+
+.main-section{
+    margin-top: 100px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    /* display: grid; */
+    /* grid-template-columns: 312px 1fr;
+    grid-column-gap: 1.5%; */
+}
+.menu-side{
+    position: sticky;
+    top: 0;
+    background-color: #161616;
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu-side a{
+    color: black;
+    font-weight: 700;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+#blog-site{
+    background-color: hwb(17 0% 2%);
+    color: #ffffffff;
+}
+
+.blog-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.blog{
+   border: 1px solid #c4c2c2;
+   border-radius: 10px;
+   width: 250px;
+}
+
+.blog img{
+    width: 100%;
+}
+.blog p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #161616;
+}
+
+.blog i{
+    font-size: 12px;
+    margin-top: 15px;
+    color: rgb(158, 158, 158);
+}
+
+.blog-details{
+    padding: 0 20px 20px 20px;
+}
+
+.blog-details button{
+    border: 1px solid gainsboro;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+.blog-icon{
+    display: flex;
+    gap: 30px;
+}
+
+footer{
+    height: 200px;
+    margin-top:100px;
+    background-color: #161616;
+}
+
+.footer h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    font-size: 30px;
+}
+
+.service{
+    width: 70%;
+    margin: 0 auto;
+    border-top:.4px solid#6b6a6a;
+    padding-top: 20px;
+    text-align: center;
+}
+.service a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #c4c2c2;
+    margin-right: 20px;
+}
+
+.fa-brands{
+    margin-right: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.social-site{
+    margin: 20px;
+    text-align: center;
+}
